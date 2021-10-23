@@ -1,0 +1,88 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-size: cover;
+   background-image: url('/assets/arena.jpg');
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+
+h1, h2{
+    margin: 0;
+    color: white;
+    padding-right: 50px;
+}
+
+h3 {
+    color: white;
+}
+
+@font-face {
+    font-family: pokemon solid;
+    src: url(/assets/Pokemon\ Solid.ttf);
+}
+
+@font-face {
+    font-family: pokemon hollow;
+    src: url(/assets/Pokemon\ Hollow.ttf);
+}
+
+h1 {
+    font-size: 7.5vh;
+    font-family: pokemon hollow;
+    margin-top: -60px;
+    letter-spacing: 10px;
+    position: relative;
+}
+
+h2 {
+    font-size: 4vh;
+    font-family: pokemon solid;
+    letter-spacing: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+
+.titleArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.spawnArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: gray;
+    transform: translateY(5px);
+  }
+
+img {
+    height: 20vh;
+    width: auto;
+}
+
+.pokemonName {
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 3.5vh;
+}
+
+.pokemonImage {
+    height: 40vh;
+    width: auto;
+}
