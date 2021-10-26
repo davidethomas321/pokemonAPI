@@ -2,7 +2,7 @@ body {
    margin: 0;
    padding: 0;
    background-size: cover;
-   background-image: url('/assets/arena.jpg');
+   background-image: url('.\assets\arena.jpg');
    background-repeat: no-repeat;
    height: 100vh;
 }
@@ -19,12 +19,12 @@ h3 {
 
 @font-face {
     font-family: pokemon solid;
-    src: url(/assets/Pokemon\ Solid.ttf);
+    src: url(.\assets\Pokemon\ Solid.ttf);
 }
 
 @font-face {
     font-family: pokemon hollow;
-    src: url(/assets/Pokemon\ Hollow.ttf);
+    src: url(.\assets\Pokemon\ Hollow.ttf);
 }
 
 h1 {
